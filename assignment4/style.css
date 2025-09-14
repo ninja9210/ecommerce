@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+header {
+  font-family: "Courier New", Courier;
+  line-height: 1.6;
+  background-color: yellow;
+  justify-content: center;
+}
+header h1 {
+  text-align: center;
+}
+header nav {
+  padding: 0px;
+  background-color: rgb(115, 214, 115);
+  text-align: center;
+}
+header nav a {
+  color: black;
+  margin: 0px;
+  text-decoration: none;
+  font-style: normal;
+  padding: 0px;
+}
+main {
+  padding: 20px;
+}
+.product-catalog {
+  max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 60px;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 50px;
+  justify-content: center;
+}
+.product {
+  background-color: #fff;
+  padding: 20px;
+  border: 1 px solid #add;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product img {
+  width: 400px;
+  height: 400px;
+}
+.product h3 {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+.product p {
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+}
+button:hover {
+  background-color: #218838;
+}
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
